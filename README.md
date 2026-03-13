@@ -62,6 +62,8 @@ SELECT * FROM users;
 ## 💡 Key Learnings
 Managed vs. Self-Managed: Transitioning to RDS reduces operational overhead (backups, patching).
 
+new update
+
 Security Group Nesting: Learned how to reference one SG inside another to create a "Zero Trust" internal network.
 
 Data Portability: Practiced using standard CLI tools (mysqldump) for cloud-to-cloud migrations.
