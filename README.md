@@ -5,7 +5,7 @@ This project implements a strategic database migration from a self-managed MySQL
 ## Architectural Framework
 
 The migration architecture consists of two distinct tiers:
-![AWS RDS Migration Architecture](/images/architecture.png)
+![AWS RDS Migration Architecture](https://github.com/KmNandini12/ec2-to-rds-data-migration/blob/b9294bda6a634677439aa77ffeacbf97c38ca991/sceenshots/architecture%20ec2%20to%20rds.png)
 
 ## Technical Implementation Details
 ### Security Group Configuration
