@@ -59,6 +59,9 @@ INSERT INTO users (username, email) VALUES
 ('admin_user', 'admin@example.com'),
 ('app_user', 'user@example.com');
 ```
+
+![Database creation](https://github.com/KmNandini12/ec2-to-rds-data-migration/blob/adea43950d91f92f5d15659100af170f694bd777/sceenshots/database%20creation.jpeg)
+
 ## Target Environment: RDS Provisioning
 An RDS for MySQL instance was created with the following specifications:
 
@@ -106,6 +109,8 @@ mysql -h [rds-endpoint].rds.amazonaws.com \
 
 ## Migration Verification
 Comprehensive validation confirmed successful migration:
+
+![result](https://github.com/KmNandini12/ec2-to-rds-data-migration/blob/adea43950d91f92f5d15659100af170f694bd777/sceenshots/result.png)
 
 ### Connectivity Validation:
 ```
